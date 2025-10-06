@@ -1,7 +1,5 @@
 # OCaml_VCS
 
-## Running OCaml_VCS
-
 # Download Libraries:
 
 `opam install fileutils`
