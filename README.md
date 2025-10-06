@@ -1,5 +1,5 @@
 # OCaml_VCS
-
+OCaml_VCS is a lightweight OCaml VCS that snapshots tracked files into per-commit folders under data/, records commit metadata in records.txt, and assigns Snowflake-style IDs so give, get, and del behave like minimal commit/checkout/delete operations. It maintains the tracked set in tracked_files.txt and includes Git-inspired inspection—show for history, an LCS-backed diff between versions, and changes to flag working tree edits—making the core versioning loop entirely self-contained.
 # Download Libraries:
 
 `opam install fileutils`
