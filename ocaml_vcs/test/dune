@@ -1,0 +1,5 @@
+(test
+ (name test_ocamlvcs)
+ (libraries ounit2 ocamlvcs unix str fileutils qcheck)
+ (deps
+  (glob_files_rec ../data/*)))

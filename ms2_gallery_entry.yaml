@@ -1,0 +1,46 @@
+---
+# Members of your group.
+group:
+  - name: Jared Viani
+    netid: jcv75
+  - name: Naveen Ramasamy
+    netid: nr453
+  - name: Anthony Ahn
+    netid: aja282
+  - name: Rohan Sedhain
+    netid: rs2443
+  - name: Akul Maheshwari
+    netid: am2737
+
+# Your PM.
+pm:
+  name: Sophia Wang
+  netid: sw895
+# Set to false if you don't want your gallery entry to be public.
+publish: true
+# Pithy title
+title: "OCaml Version Control System"
+# OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
+git-repo: "https://github.coecis.cornell.edu/rs2443/KirklandSignature"
+# Replace the URL with your own demo video.
+demo-video-url: "https://www.youtube.com/watch?v=viOXNDcWyPQ"
+# Write a short, attention-grabbing description of your project.
+desc: >
+Our project is a version control system supplemented by a text editor, designed for managing and analyzing files. It allows users to save versions of files with a custom message, retrieve and restore saved versions, delete specific versions, and display all saved versions in a log. The system’s command-based interface makes it intuitive for users to perform these operations efficiently.
+Version Control Commands:
+	•	give: Saves a new version of files with a specified commit message.
+	•	get: Retrieves a specific version of files based on the given ID.
+	•	del: Deletes a specific version based on the provided ID.
+	•	show: Displays all saved versions of the files.
+	•	diff: Shows the differences between two versions of a file.
+	•	changes: Checks for changes in tracked files.
+Editor Commands:
+	•	find: Replaces target text with replacement text in a file (optional).
+	•	insert <line_number>: Inserts text at the specified line number in the file.
+	•	count: Returns the word count for the specified file.
+	•	avg: Returns the average number of characters in all files of the record.
+	•	common_words: Returns the ‘n’ most common words in all files of the record.
+	•	longest_words: Returns the ‘n’ longest words in all files of the record.
+	•	line_count: Returns the number of lines in a specified file.
+	•	summary: Generates a summary for the file, including word count, line count, and character count.
+Each saved version is stored in a uniquely named directory for easy organization and management. A main log file, records.txt, maintains all entries, allowing users to quickly access details about all available versions.

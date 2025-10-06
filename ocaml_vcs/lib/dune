@@ -1,0 +1,6 @@
+(library
+ (name ocamlvcs)
+ (instrumentation
+  (backend bisect_ppx))
+ (libraries unix fileutils str)
+ )
